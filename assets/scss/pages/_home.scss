@@ -1,0 +1,56 @@
+.about_us{
+    background-color: $color-grey-1;
+    padding: 20rem 0;
+    margin-top: -20vh;
+}
+
+.feature_section{
+    padding: 20rem 0rem;
+    // background-image: linear-gradient(to right bottom, $color-gradient-one, $color-gradient-two), url(../img/nat-4.jpg);
+    // background-size: cover;
+    // background-position: center center;
+    @include backgroundImg(url(../img/nat-4.jpg));
+    transform: skewY(-5deg);
+    margin-top: -10rem;
+    > * {
+        transform: skewY(5deg);
+    }
+    &_icon{
+        font-size: 6rem;
+        display: inline-block;
+        // background-image: linear-gradient(to right, $color-primary, $color-darkgreen);
+        // -webkit-background-clip: text;
+        // background-clip: text;
+        // color: transparent;
+        @include textClipGradient;
+        margin-bottom: 1rem;
+    }
+}
+
+.section_tours{
+    background-color: $color-grey-1;
+    padding: 15rem 0;
+    margin-top: -20vh;
+}
+
+.section_stories{
+    padding: 15rem 0;
+    position: relative;
+}
+
+.section_book{
+    padding: 15rem 0;
+    background-image: linear-gradient(to right bottom, $color-primary, $color-darkgreen);
+}
+
+.book{
+    background-image:linear-gradient(104deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url(../img/nat-10.jpg);
+    border-radius: 3px;
+    height: 50rem;
+    background-size: cover;
+    box-shadow: 0 1.5rem 4rem rgba($color: $color-dark, $alpha: .2);
+    &_form{
+        width: 50%;
+        padding: 6rem;
+    }
+}

@@ -1,0 +1,21 @@
+*,
+*::after,
+*::before{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    padding: 3rem;
+    font-family: 'Lato', sans-serif;
+}
+
+::selection{
+    background-color: $color-primary;
+    color: $color-white;
+}

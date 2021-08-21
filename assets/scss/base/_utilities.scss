@@ -1,0 +1,49 @@
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 114rem;
+}
+.row{
+    @include clearfix;
+}
+
+.mb-8{
+    margin-bottom: 8rem;
+}
+
+.mb-6{
+    margin-bottom: 6rem;
+}
+
+.mb-4{
+    margin-bottom: 4rem;
+}
+
+.mb-2{
+    margin-bottom: 2rem;
+}
+
+.pr-6{
+    padding-right: 6rem !important;
+}
+.col-6{
+    float: left;
+    width: 50%;
+    padding: 0px 1.5rem;
+}
+.col-4{
+    float: left;
+    width: 33%;
+    padding: 0px 1.5rem;
+}
+
+.col-3{
+    float: left;
+    width: 25%;
+    padding: 0px 1.5rem;
+}
+
+.text-center{
+    text-align: center;
+}
